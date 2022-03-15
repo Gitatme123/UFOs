@@ -1,4 +1,4 @@
-function buildTable(data) {
+function buildTable() {
     // First, clear out any existing data
     tbody.html("");
   
@@ -17,7 +17,8 @@ function buildTable(data) {
       );
     });
   }
-function handleClick() {
+
+function handleClick(data) {
         // Grab the datetime value from the filter
         let date = d3.select("#datetime").property("value");
         let filteredData = tableData;
@@ -34,7 +35,7 @@ function handleClick() {
         // @NOTE: If no date was entered, then filteredData will
         // just be the original tableData.
         buildTable(filteredData);
-}
+      }
       
       // Attach an event to listen for the form button
       d3.selectAll("#filter-btn").on("click", handleClick);
