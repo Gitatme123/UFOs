@@ -31,10 +31,8 @@ The purpose of this assignment is to create a dynamic webpage using Javascript t
 8. We now see that only one sighting matches the following filters: Date: 1/6/2010, City: san diego, State: ca
 > <img width="1042" alt="Screen Shot 2022-03-18 at 11 39 27 AM" src="https://user-images.githubusercontent.com/95602006/159045438-d3b69499-8f73-4247-b9ab-64e9348f0c74.png">
 
->
-
 #### 1 drawback
-1. The number of temperatures recorded is relatively equal for both months with December having 12 % less recordings to analyze than June. I would be concerned if it were greater than 20% difference because that would mean an unequal distribution of data between the months.
+1. The biggest drawback i've found is that the data set is not that extensive and the data within is strange. It's easy enough to get a preview by scrolling down on the table when the page auto loads. But because there are only like 100+ sightings, the ability to search is greatly limited because if you searched a random day, it has to be in 2010 and a sighting only happens on an average of every 3rd day.
 
 #### 2 Recommendations to further develop this application
 1. The application only can accept one argument in each filter at a time. While this application was developed to be able to search that way, it is sufficient for someone wanting to segment their data in such a way. But if someone else wanted to use the application and wanted to segment their data differently, ie: filtering for multiple states at a time because they could want to return all results for sightings on the west coast. This would be an extremely beneficial development.  
