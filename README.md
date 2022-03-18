@@ -12,14 +12,24 @@ The purpose of this assignment is to create a dynamic webpage using Javascript t
 3. State
 4. Country
 5. Shape
-#### Learning how to use this table filtering application is simple! When you type text into the white box, you can either press "Enter" on your keyboard, or click anywhere else on screen. This signals to the application that you are done entering in your filter criteria and the search can run. To add a 2nd filter, you can We have even removed the button to make it easier. To search for a specific thing, you'll need to type in into the 
-> Since this is an Ice Cream and Surf Shop, the activities are commonly understood to be enjoyed in warmer temperatures. Therefore I am going to use warmer as an indicator of the significance of temperatures throughout the month.
+#### Learning how to use this table filtering application is simple! Follow the steps below to refine your UFO sighting search by Date, City, State, Country and Shape! You can use all 5 filters at once, but you can only use each filter for one selection at a time. For example, you can only search for one state, one city, one date, etc.  
 
-> We also need to understand that W. Any did not give us any criteria for determining the significance of both June and December, and if we are comparing them against eachother or comparing them against the year on average. 
-
-> Before we begin our analysis, we should gather the data and charts at our disposal. We have put together histograms and descriptive statistics for both June and December. We should use the charts to observe any obvious behaviors, and reference the descriptive stats to support/reject our hypothesis.
-
-
+1. Scan through the table that is already loaded to get an idea for the format the filters accept.
+> <img width="1283" alt="Screen Shot 2022-03-18 at 11 28 42 AM" src="https://user-images.githubusercontent.com/95602006/159043443-38639620-dcab-449d-8125-ec00dc5886b6.png">
+2. Select a filter you want to use first. We'll go with the "State" filter.
+> <img width="851" alt="Screen Shot 2022-03-18 at 11 30 12 AM" src="https://user-images.githubusercontent.com/95602006/159043785-cdfac93f-ab9c-4b07-b554-06366cec0f1a.png">
+3. Since we previewed the format, we know this filter shows the state as a 2 letter abrieviation that is lowercase. Let's type in "ca" and then click somewhere else on the screen for it to load.
+> <img width="876" alt="Screen Shot 2022-03-18 at 11 31 46 AM" src="https://user-images.githubusercontent.com/95602006/159044043-627e9ed4-33f5-4605-95c7-918088e24440.png">
+4. We now see all of the results for UFO sightings in "ca", California in this dataset.
+> <img width="1179" alt="Screen Shot 2022-03-18 at 11 32 44 AM" src="https://user-images.githubusercontent.com/95602006/159044099-9eee5f20-9e2b-47c8-bf6d-1ac369bd96a8.png">
+5. Let's use another filter to narrow our search down further. Keep the "ca" in the state, and type "san diego" into the "city" field.
+> <img width="989" alt="Screen Shot 2022-03-18 at 11 33 53 AM" src="https://user-images.githubusercontent.com/95602006/159044329-1c09753f-15ea-46b0-bd1d-9db8ebb02675.png">
+6. The filters return 3 results.
+> <img width="1122" alt="Screen Shot 2022-03-18 at 11 34 33 AM" src="https://user-images.githubusercontent.com/95602006/159044398-36807124-0246-4c24-8d66-0daca586762a.png">
+7. Give it a go and type in the date "1/6/2010" into the date filter field to show how 3 filters can be used at once.
+> <img width="700" alt="Screen Shot 2022-03-18 at 11 38 10 AM" src="https://user-images.githubusercontent.com/95602006/159045047-908a5f4f-5c05-48eb-83c7-90341e9f5b88.png">
+8. We now see that only one sighting matches the following filters: Date: 1/6/2010, City: san diego, State: ca
+> <img width="1042" alt="Screen Shot 2022-03-18 at 11 39 27 AM" src="https://user-images.githubusercontent.com/95602006/159045438-d3b69499-8f73-4247-b9ab-64e9348f0c74.png">
 
 > **Resources for the analysis are attached at the bottom 
 
