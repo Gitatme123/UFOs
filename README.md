@@ -5,7 +5,7 @@ Analysis of UFO sightings displayed on webpage searchable by 5 characteristics: 
 ####
 The purpose of this assignment is to create a dynamic webpage using Javascript to insert it into html, and then displaying our data on the web. We have learned how to build a table that neatly displays the UFO data we are working with. Filters have also been added which allow users to refine their search based on their use case. The table is then visually displayed by the html on the webpage. We also use bootstap, html and css to format the page, and enable dynamic content, which allows users to enter in new filters to update their search. The end product is a visually appealing and interactive UFO sighting search!
 
-## Analysis
+## Analysis and Results
 #### When using the webpage to filter for data, we are given the following options:
 1. Date
 2. City
@@ -31,6 +31,8 @@ The purpose of this assignment is to create a dynamic webpage using Javascript t
 8. We now see that only one sighting matches the following filters: Date: 1/6/2010, City: san diego, State: ca
 > <img width="1042" alt="Screen Shot 2022-03-18 at 11 39 27 AM" src="https://user-images.githubusercontent.com/95602006/159045438-d3b69499-8f73-4247-b9ab-64e9348f0c74.png">
 
+
+## Summary
 #### 1 drawback
 1. The biggest drawback i've found is that the data set is not that extensive and the data within is strange. It's easy enough to get a preview by scrolling down on the table when the page auto loads. But because there are only like 100+ sightings, the ability to search is greatly limited because if you searched a random day, it has to be in 2010 and a sighting only happens on an average of every 3rd day.
 
