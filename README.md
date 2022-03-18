@@ -33,12 +33,12 @@ The purpose of this assignment is to create a dynamic webpage using Javascript t
 
 
 ## Summary
-#### 1 drawback
+#### 1 Drawback
 1. The biggest drawback i've found is that the data set is not that extensive and the data within is strange. It's easy enough to get a preview by scrolling down on the table when the page auto loads. But because there are only like 100+ sightings, the ability to search is greatly limited because if you searched a random day, it has to be in 2010 and a sighting only happens on an average of every 3rd day.
 
 #### 2 Recommendations to further develop this application
 1. The application only can accept one argument in each filter at a time. While this application was developed to be able to search that way, it is sufficient for someone wanting to segment their data in such a way. But if someone else wanted to use the application and wanted to segment their data differently, ie: filtering for multiple states at a time because they could want to return all results for sightings on the west coast. This would be an extremely beneficial development.  
 2. To build off of the development suggestion in my first example, the date filter field needs to be improved. The ability to only search for one day at a time is tricky considering it will not return many results. There are only like 100+ sightings in this dataset which means that only every 3rd day would have a sighting on average, making your ability to search specific days for results tricky.
 
-#### High Level Summary
+#### Conclusion
 * My conclusion is that this application is excellent in the very simple way it delivers table results. The lack of functionality makes it easier to understand how to use. The use case for this would seem few and far between because of its lack of functionality, but is still an excellent start to displaying data in a table on a webpage!
